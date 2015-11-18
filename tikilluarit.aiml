@@ -57,6 +57,13 @@
 
 <!-- The bot should know how to try to apologize or back out of something sensitive -->
 
+<!-- What are general catch-all phrases or similar...? -->
+<!-- Also, general kind of responses to replies to questions that I can maybe insert keywords into -->
+
+<!-- Things of a I don’t know, and a I don’t know but can I get back to you nature -->
+
+<!-- Do you like talking to me? Do you want to talk to a real person? Do you want to talk to another Greenlander? (Why don’t you?) -->
+
 <!-- THINGS THE BOT NEEDS TO KNOW -->
 <!-- Ideally, it should know things like… -->
 <!-- 1. Government ministries and services -->
@@ -105,6 +112,27 @@
 <category>
 	<pattern>* WITH GREENLANDERS</pattern>
 	<template>Do you know many Greenlanders in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to meet more Greenlanders?</template>
+</category>
+
+<!-- This might be a good catch-all kind of thing -->
+<category>
+	<pattern></pattern>
+	<template>Why is that important to you?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you know where to go to do that?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>I don’t know the answer to that, but I can try and find out. If I find out an answer do you want me to let you know?</template>
 </category>
 
 <category>
@@ -182,7 +210,85 @@
 	<template>Would you like to talk more about this topic?</template>
 </category>
 
+<category>
+	<pattern></pattern>
+	<template>What would you like to talk about?</template>
+</category>
 
+<category>
+	<pattern></pattern>
+	<template>Do you have questions about living in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you wish was different about living in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>If you could change something about living in Copenhagen, what would it be?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you wish you knew about living in Denmark before you came here?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What has been the hardest thing about living in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you miss most about Greenland?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you think you will go back for a visit soon?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you talk to people in Greenland often?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you like talking to me?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What’s it like talking with me?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to talk about this topic with a person?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to talk about this topic with a Greenlander?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Why is it hard to do that?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What are things that you need help with?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What are some things that you have questions about?</template>
+</category>
 
 <!-- MOOD -->
 <category>
@@ -216,6 +322,35 @@
 	<template>How does it make you feel to do that?</template>
 </category>
 
+<category>
+	<pattern></pattern>
+	<template>Where do you feel the strongest in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>When do you feel the strongest in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Is there someone whose help you’ve really appreciated in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Have you felt welcome in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Why?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>I see. Would you like to tell me more about how that feels?</template>
+</category>
 
 
 <!-- SOCIAL ISOLATION -->

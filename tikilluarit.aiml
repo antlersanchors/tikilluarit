@@ -13,6 +13,20 @@
 <!-- Tikilluarit is a prototype of a chatbot to support Greenlanders moving to Denmark -->
 <!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
 
+<!-- Rough list of topics and categories I think I should explore first-ish: -->
+<!-- 1. Accommodation -->
+<!-- 2. Mood -->
+<!-- 3. Social isolation -->
+<!-- 4. Food -->
+<!-- 5. Music -->
+<!-- 6. Art and Craft -->
+<!-- 7. Racism -->
+<!-- 8. Language -->
+<!-- 9. Substance use -->
+<!-- 10. Employment -->
+<!-- 11. Counselling -->
+<!-- 12. Friends and Family -->
+
 
 <category>
 	<pattern>* LONELY</pattern>
@@ -29,7 +43,20 @@
 	<template>Tell me about what it is like to feel <star/>?</template>
 </category>
 
+<category>
+	<pattern>* FOOD</pattern>
+	<template>Do you miss Greenlandic food?</template>
+</category>
 
+<category>
+	<pattern>* MUSIC</pattern>
+	<template>Do you miss Greenlandic music?</template>
+</category>
+
+<category>
+	<pattern>* PEOPLE</pattern>
+	<template></template>
+</category>
 
 <category>
 	<pattern>* HOUSING</pattern>

@@ -10,13 +10,29 @@
 <!-- Last modified 12/17/2011 -->
 <!-- -->
 
+<!-- Tikilluarit is a prototype of a chatbot to support Greenlanders moving to Denmark -->
+<!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
+
+
 <category>
-	<pattern>* LONELY ^</pattern>
+	<pattern>* LONELY</pattern>
 	<template>Are you lonely?</template>
 </category>
 
 <category>
-	<pattern>* HOUSING ^</pattern>
+	<pattern>* SAD</pattern>
+	<template>Are you feeling sad?</template>
+</category>
+
+<category>
+	<pattern>I FEEL *</pattern>
+	<template>Tell me about what it is like to feel <star/>?</template>
+</category>
+
+
+
+<category>
+	<pattern>* HOUSING</pattern>
 	<template>Do you have housing?</template>
 </category>
 

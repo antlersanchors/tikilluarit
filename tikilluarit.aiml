@@ -27,7 +27,23 @@
 <!-- 11. Counselling -->
 <!-- 12. Friends and Family -->
 
+<!-- ACCOMMODATION -->
+<category>
+	<pattern>* HOUSING</pattern>
+	<template>Do you have housing?</template>
+</category>
 
+<category>
+	<pattern>I LIVE IN *</pattern>
+	<template>Do you like it there?</template>
+</category>
+
+<category>
+	<pattern>* HOMELESS</pattern>
+	<template>Are you homeless?</template>
+</category>
+
+<!-- MOOD -->
 <category>
 	<pattern>* LONELY</pattern>
 	<template>Are you lonely?</template>
@@ -39,28 +55,34 @@
 </category>
 
 <category>
+	<pattern>YES</pattern>
+	<that>ARE YOU FEELING SAD</that>
+	<template>I’m sorry to hear that.</template>
+</category>
+
+<category>
 	<pattern>I FEEL *</pattern>
 	<template>Tell me about what it is like to feel <star/>?</template>
 </category>
 
-<category>
-	<pattern>* FOOD</pattern>
-	<template>Do you miss Greenlandic food?</template>
-</category>
-
-<category>
-	<pattern>* MUSIC</pattern>
-	<template>Do you miss Greenlandic music?</template>
-</category>
-
+<!-- SOCIAL ISOLATION -->
 <category>
 	<pattern>* PEOPLE</pattern>
 	<template></template>
 </category>
 
+<!-- FOOD -->
 <category>
-	<pattern>* HOUSING</pattern>
-	<template>Do you have housing?</template>
+	<pattern>* FOOD</pattern>
+	<template>Do you miss Greenlandic food?</template>
 </category>
+
+<!-- MUSIC -->
+<category>
+	<pattern>* MUSIC</pattern>
+	<template>Do you miss Greenlandic music?</template>
+</category>
+
+
 
 </aiml>

@@ -27,6 +27,17 @@
 <!-- 11. Counselling -->
 <!-- 12. Friends and Family -->
 
+<!-- What are some of the variables we want to keep track of in the conversation? -->
+<!-- 1. Has housing -->
+<!-- 2. Looking for Housing -->
+<!-- 3. Knows about Greenlandic House -->
+<!-- 4. Knows about social workers at Greenlandic House -->
+<!-- 5. Employment status -->
+<!-- 6. Homesick for food...? -->
+<!-- 7. Mood -->
+
+
+
 <!-- ACCOMMODATION -->
 <category>
 	<pattern>* HOUSING</pattern>

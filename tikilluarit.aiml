@@ -27,6 +27,8 @@
 <!-- 11. Counselling -->
 <!-- 12. Friends and Family -->
 
+<!-- 13. and of course general banter and "who am I" stuff -->
+
 <!-- What are some of the variables we want to keep track of in the conversation? -->
 <!-- 1. Has housing -->
 <!-- 2. Looking for Housing -->
@@ -36,7 +38,7 @@
 <!-- 6. Homesick for food...? -->
 <!-- 7. Mood -->
 
-
+<!-- When does the bot take initiative and ask questions? -->
 
 <!-- ACCOMMODATION -->
 <category>
@@ -53,6 +55,64 @@
 	<pattern>* HOMELESS</pattern>
 	<template>Are you homeless?</template>
 </category>
+
+<category>
+	<pattern>* WAITING LIST</pattern>
+	<template>How long have you been waiting?</template>
+</category>
+
+<category>
+	<pattern>* WORKER</pattern>
+	<template>Do you have a social worker?</template>
+</category>
+
+<category>
+	<pattern>* LIVING IN DENMARK</pattern>
+	<template>How long have you been living in Denmark?</template>
+</category>
+
+<category>
+	<pattern>* WITH GREENLANDERS</pattern>
+	<template>Do you know many Greenlanders in Denmark?</template>
+</category>
+
+<category>
+	<pattern>* FRIENDS</pattern>
+	<template>Is it hard to make friends here?</template>
+</category>
+
+<category>
+	<pattern>* HARD TO MAKE FRIENDS</pattern>
+	<template>Why do you think that is?</template>
+</category>
+
+<category>
+	<pattern>* SPEAK GREENLANDIC</pattern>
+	<template>Do you miss speaking Greenlandic?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>When you feel <star/>, what do you do?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>How does that feel?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you ever miss Greenland?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you miss about Greenland?</template>
+</category>
+
+
+
 
 <!-- MOOD -->
 <category>

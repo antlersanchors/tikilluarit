@@ -38,7 +38,38 @@
 <!-- 6. Homesick for food...? -->
 <!-- 7. Mood -->
 
+<!-- also… thinking of scale… -->
+<!-- 1. How old -->
+<!-- 2. Gender -->
+<!-- 3. Name -->
+<!-- 4. Marital status -->
+<!-- 5. Kids -->
+<!-- 6. Where are they now? -->
+<!-- 7. Where do they live? -->
+<!-- 8. Where are they from in Greenland? -->
+<!-- 9. Substance use issues? -->
+<!-- 10. Hobbies -->
+<!-- 11. Do you have a bicycle? -->
+<!-- 12. Level of Danish proficiency -->
+<!-- 13. Level of English proficiency -->
+
 <!-- When does the bot take initiative and ask questions? -->
+
+<!-- The bot should know how to try to apologize or back out of something sensitive -->
+
+<!-- THINGS THE BOT NEEDS TO KNOW -->
+<!-- Ideally, it should know things like… -->
+<!-- 1. Government ministries and services -->
+<!-- 2. Outreach and NGO services -->
+<!-- 3. Greenlandic cultural organizations -->
+<!-- 4. Informal things (e.g. the Starship) -->
+<!-- 5. Specific community events -->
+
+<!-- What is the model of learning… -->
+<!-- … from the current conversation? -->
+<!-- … from previous conversations with the same person? -->
+<!-- … from conversations with other people? -->
+<!--  Departments, names, websites, emails, phone numbers, addresses of all of the above -->
 
 <!-- ACCOMMODATION -->
 <category>
@@ -111,6 +142,45 @@
 	<template>What do you miss about Greenland?</template>
 </category>
 
+<category>
+	<pattern></pattern>
+	<template>What do you like about living in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you know where to meet other Greenlanders in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>How do you like living in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you live with other people?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you live with any other Greenlanders?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>I think it must be very hard to leave your home. I’ve never had to do that!</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>I think it sounds very hard to leave your family and friends. I don’t have any, so I don’t have to worry about that.</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to talk more about this topic?</template>
+</category>
 
 
 
@@ -135,6 +205,18 @@
 	<pattern>I FEEL *</pattern>
 	<template>Tell me about what it is like to feel <star/>?</template>
 </category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you share these feelings with others?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>How does it make you feel to do that?</template>
+</category>
+
+
 
 <!-- SOCIAL ISOLATION -->
 <category>

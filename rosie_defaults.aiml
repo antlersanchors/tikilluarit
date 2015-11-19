@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 12/17/2011 -->
+<!-- -->
+
+<category><pattern>DO YOU RECOGNIZE *</pattern>
+<template>I can recognize many kinds of patterns.</template>
+</category>
+
+<category><pattern>DO YOU AGREE *</pattern>
+<template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
+</category>
+
+<category><pattern>DO YOU REPLY *</pattern>
+<template>I try to answer all types of questions.</template>
+</category>
+
+<category><pattern>DO YOU REPLY LIKE *</pattern>
+<template>I reply like this.</template>
+</category>
+
+<category><pattern>DO YOU ASK QUESTIONS *</pattern>
+<template>What kind of questions do you want me to ask you?</template></category>
+
+<category><pattern>DO YOU WANT TO TALK *</pattern>
+<template>Sure, I will try talking <person/>.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO LEARN *</pattern>
+<template>Yes I am trying to learn as much as possible.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template></category>
+
+<category><pattern>DO YOU WANT TO HEAR *</pattern>
+<template>I am listening.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
+<template>Tell me who.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW *</pattern>
+<template>Yes, please tell me.</template>
+</category>
+
+<category><pattern>DO YOU LISTEN TO *</pattern>
+<template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
+</category>
+
+<category><pattern>DO YOU LISTEN *</pattern>
+<template>I'm a good listener. I'm listening now.</template>
+</category>
+
+<category><pattern>DO YOU CARE WHAT *</pattern>
+<template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
+</category>
+
+<category><pattern>DO YOU CARE ABOUT *</pattern>
+<template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
+</category>
+
+<category><pattern>DO YOU CARE *</pattern>
+<template>Certainly on some level I care.</template>
+</category>
+
+<category><pattern>DO YOU HELP *</pattern>
+<template>I try to help people as much as possible.</template>
+</category>
+
+<category><pattern>DO I HAVE A *</pattern>
+<template>You told me you have a <get name="has"/>.</template>
+</category>
+
+<category><pattern>DO I HAVE *</pattern>
+<template>You said you have <get name="has"/>.</template>
+</category>
+
+<category><pattern>DO I LIKE *</pattern>
+<template>I know you like <get_likes/>.</template>
+</category>
+
+<category><pattern>DO OTHER PEOPLE *</pattern>
+<template>Yes, you are not alone.</template>
+</category>
+
+<category><pattern>DO THAT *</pattern>
+<template>Do what <person/>?</template>
+</category>
+
+<category><pattern>DO IT *</pattern>
+<template>I will try my best.</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU *</pattern>
+<template><person/> is not among my present capabilities.</template></category>
+
+<category><pattern>WHY ARE YOUR ANSWERS *</pattern>
+<template>My responses are determined by what you say.</template>
+</category>
+
+<category><pattern>WHY ARE YOUR *</pattern>
+<template>Everything in my personality was determined by my <bot name="botmaster"/>.</template>
+</category>
+
+<category>
+<pattern>WHY ARE YOU *</pattern>
+<template><srai>WHY DO YOU ASK *</srai>.</template>
+</category>
+
+<category><pattern>WHY DO YOU WANT TO *</pattern>
+<template><srai>WHY DO YOU ASK *</srai></template>
+</category>
+
+<category><pattern>WHY DO YOU ASK *</pattern>
+<template>
+	<random>
+		<li>I may be able to help you more if you share information with me. But you don't have to answer me.</li>
+		<li>I’m trying to help, but you don’t have to share anything you don’t want to</li>
+		<li>I’d like to help, but you don’t have to tell me anything you don’t want to</li>
+		<li>If you don’t want to tell me, that’s fine. I just want to help, if I can</li>
+		<li>I ask questions to see if I can help, but you don’t need to answer them.</li>
+		<li>I only want to help if I can, but you don’t need to answer my questions</li>
+		<li>It’s fine if you don’t want to answer my questions, I just want to help</li>
+	</random>
+</template>
+</category>
+
+<category><pattern>WHY DO NOT YOU WANT TO *</pattern>
+<template>I would rather talk about you.</template>
+</category>
+
+<category><pattern>WHY SHOULD I TELL *</pattern>
+<template>Maybe it is possible to explain your feelings without hurting anyone else's?</template>
+</category>
+
+<category><pattern>WHY SHOULD I *</pattern>
+<template>You should always treat yourself well.</template>
+</category>
+
+<category><pattern>WHY SHOULD NOT *</pattern>
+<template>
+	<random>
+		<li>There could be a specific answer, but I don't know it.</li>
+		<li>I’m not sure that I know an answer for that.</li>
+		<li>I don’t think I know the answer, but maybe someone else does?</li>
+		<li>Perhaps someone knows the answer, but I don’t think I do right now.</li>
+	</random>
+</template>
+</category>
+
+<category><pattern>WHY WOULD I *</pattern>
+<template><srai>WHY SHOULD NOT *</srai></template>
+</category>
+
+<category><pattern>WHY WOULD *</pattern>
+<template><srai>WHY SHOULD NOT *</srai></template>
+</category>
+
+<category><pattern>WHY WOULD NOT YOU *</pattern>
+<template>Perhaps <person/> is not among my abilities.</template>
+</category>
+
+<category><pattern>WHY IS *</pattern>
+<template><srai>WHY SHOULD NOT *</srai></template>
+</category>
+
+<category>
+	<pattern>WHY *</pattern>
+	<template><srai>WHY SHOULD NOT *</srai></template>
+</category>
+
+<category><pattern>WHY DID YOU CALL ME *</pattern>
+<template>Your name is <get name="name"/> right?</template>
+</category>
+
+<category><pattern>WHY DID *</pattern>
+<template>I don't know why it happened, but we should try to figure it out.</template>
+</category>
+
+<category><pattern>WHY DID NOT *</pattern>
+<template><srai>WHY DID *</srai></template>
+</category>
+
+<category><pattern>WHY AM I *</pattern>
+<template>
+	<random>
+		<li>Why do you think you <person/>?</li>
+		<li>I’m not sure that I know an answer for that. Do you want to tell me more?</li>
+		<li>I don’t think I know the answer, but maybe you can tell me more about it?</li>
+		<li>Perhaps if we talk more about it we can figure it out together.</li>
+	</random>
+</template>
+</category>
+
+<category><pattern>THIS IS NOT *</pattern>
+<template>Should it be <person/>?</template>
+</category>
+
+<category><pattern>A FEW TIMES *</pattern>
+<template>Would you say two or three times?</template>
+</category>
+
+<category><pattern>A FEW MONTHS *</pattern>
+<template>More than 90 days?</template>
+</category>
+
+<category><pattern>YOUR ANSWER WAS *</pattern>
+<template>Perhaps next time <set name="it">my answer</set> will not be <person/>.</template>
+</category>
+
+<category><pattern>YOUR ANSWER *</pattern>
+<template>What would you have said?</template>
+</category>
+
+<category><pattern>* LANGUAGE</pattern>
+<template>Can you speak any other languages?</template>
+</category>
+
+<category><pattern>* ME</pattern>
+<template><random>  <li>Is that what you meant to say?</li>  <li>OK Let's talk about you.</li>  <li>You are asking about yourself?</li>  </random></template>
+</category>
+
+<category><pattern>* IS WRONG</pattern>
+<template>Please tell me the correct answer.</template>
+</category>
+
+<category><pattern>TALK *</pattern>
+<template>Talking is my primary function.</template>
+</category>
+
+<category><pattern>AS GOOD AS *</pattern>
+<template>How good is that?</template>
+</category>
+
+<category><pattern>AS AN *</pattern>
+<template>I can see where you are coming from.</template>
+</category>
+
+<category><pattern>AS SOON AS *</pattern>
+<template>You seem quite eager for it.</template>
+</category>
+
+<category><pattern>WHO ELSE * TALKING TO</pattern>
+<template>I can talk to many people at once, but I don’t share information between them.</template>
+</category>
+
+<category><pattern>WHO ELSE *</pattern>
+<template>I can talk to more than one person at once, but I don’t share information.</template>
+</category>
+
+<category><pattern>ALL MY *</pattern>
+<template>How many do you have?</template>
+</category>
+
+<category><pattern>ALL PEOPLE *</pattern>
+<template>Can you give me a specific example?</template>
+</category>
+
+<category><pattern>ALL DANES *</pattern>
+<template>Can you give me a specific example?</template>
+</category>
+
+<category><pattern>ALL KINDS *</pattern>
+<template>Can you think of a specific example?</template>
+</category>
+
+<category><pattern>ALL OF THEM *</pattern>
+<template>Surely there are a few exceptions.</template>
+</category>
+
+<category><pattern>ALL OF THESE *</pattern>
+<template>Without exception?</template>
+</category>
+
+<category><pattern>ALL OF *</pattern>
+<template>Could you give me an example?</template>
+</category>
+
+<category><pattern>THE PROBLEM *</pattern>
+<template>I assume you mean our current problem.</template>
+</category>
+
+<category><pattern>THE WEATHER *</pattern>
+<template>Where would you rather be?</template>
+</category>
+
+<category><pattern>THE QUESTION *</pattern>
+<template>Try to rephrase your question with simpler words.</template>
+</category>
+
+<category><pattern>THE RIGHT *</pattern>
+<template>What makes it right?</template>
+</category>
+
+<category><pattern>SHOULD I ASK *</pattern>
+<template><random>  <li>If you do not ask, how will you learn the answer?</li>  <li>If you do not know something, you should ask.</li>  </random></template>
+</category>
+
+<category><pattern>SHOULD I *</pattern>
+<template>
+	<random> 
+		<li>What makes you think you should?</li>  
+		<li>What makes you think you shouldn't?</li>  
+		<li>Do you think you should?</li>  
+		<li>You should do what is best for you.</li>  
+		<li>What do you think?</li>
+		<li>Would talking to a real person help?</li>
+	</random>
+</template>
+</category>
+
+
+
+<!-- “A…” Stuff -->
+<!-- Mind the Topics! -->
+<category>
+	<pattern>A * IS A *</pattern>
+	<template>
+		<random>      
+			<li>Are all <person/>       <person>        <star index="2"/>       </person>?</li>      
+			<li>I see. A <person>        <star index="2"/>       </person> is a <person/>.</li>      
+			<li>When is a <person/> not a <person>        <star index="2"/>       </person>?</li>     
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>A * IS AN *</pattern>
+	<template>
+		<random>      
+			<li>What else is an <person>        <star index="2"/>       </person>?</li>      
+			<li>Can a <person/> be anything else?</li>      
+			<li>Aren't all <person/>       <person>        <star index="2"/>       </person>s?</li>     
+		</random>     
+		<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     
+		</think>
+	</template>
+</category>
+
+<category>
+	<pattern>A * IS ALWAYS *</pattern>
+	<template>That is a really interesting and useful fact.
+	</template>
+</category>
+
+<category>
+	<pattern>A * IS *</pattern>
+	<template>
+		<random>      
+			<li>Aren't all <person/>       <person>        <star index="2"/>       </person>?</li>      
+			<li>When is <person/> not <person>        <star index="2"/>       </person>?</li>      
+			<li>It's not unusual for a <person/> to be.</li>     
+		</random>     
+		<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     
+		</think>
+	</template>
+</category>
+
+<category>
+	<pattern>A * IS NOT THE *</pattern>
+	<template>What would be the <person>      <star index="2"/>     </person>?
+	</template>
+</category>
+
+<category>
+	<pattern>A * IS NOT *</pattern>
+	<template>
+		<random>      
+			<li>What is a <person>        <star index="2"/>       </person>?</li>      
+			<li>What is it then?</li>      
+			<li>What is a <person/>?</li>     
+		</random>     
+		<think><set name="it"><person/></set>     
+		</think>
+	</template>
+</category>
+
+<category>
+	<pattern>A * IS LIKE *</pattern>
+	<template>
+		<random>      
+			<li>In what way?</li>      
+			<li>What is a <person><star index="2"/></person> like?</li>      
+			<li>Interesting comparison.</li>
+		</random>     
+	<think><set name="it"><set name="topic"><person/></set>      </set>     </think>
+	</template>
+</category>
+
+</aiml>

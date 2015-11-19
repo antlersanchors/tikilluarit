@@ -82,11 +82,143 @@
 
 <!-- ABOUT ME -->
 
+<!-- "What can you talk about/What do you know/What do you do?" -->
+<category>
+	<pattern>* TALK ABOUT</pattern>
+	<template>
+		<random>
+			<li>What would you like to talk about? I am still learning, but I know a bit about finding a place to live, and where to go to meet Greenlanders.</li>
+			<li>I’m here to listen and to try and help. What would you like to talk about?</li>
+			<li>I am always learning, but I know a bit about finding a place to live, where you can go to meet people, and where to find Greenlandic culture.</li>
+		</random>
+	</template>
+</category>
 
+<category>
+	<pattern>WHAT * YOU TALK ABOUT</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category>
+	<pattern>* DO YOU KNOW</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category>
+	<pattern>DO YOU KNOW ABOUT *</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT DO YOU *</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category><pattern>DO YOU RECOGNIZE *</pattern>
+<template>I can recognize many kinds of patterns.</template>
+</category>
+
+<category><pattern>DO YOU AGREE *</pattern>
+<template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
+</category>
+
+<category><pattern>DO YOU REPLY *</pattern>
+<template>I try to answer all types of questions.</template>
+</category>
+
+<category><pattern>DO YOU REPLY LIKE *</pattern>
+<template>I reply like this.</template>
+</category>
+
+<category><pattern>DO YOU ASK QUESTIONS *</pattern>
+<template>What kind of questions do you want me to ask you?</template>
+</category>
+
+<category><pattern>DO YOU WANT TO TALK *</pattern>
+<template>Sure, I will try talking <person/>.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO LEARN *</pattern>
+<template>Yes I am trying to learn as much as possible.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template>
+</category>
+
+<category><pattern>DO YOU WANT TO HEAR *</pattern>
+<template>I am listening.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
+<template>Tell me who.</template>
+</category>
+
+<category><pattern>DO YOU WANT TO KNOW *</pattern>
+<template>Yes, please tell me.</template>
+</category>
+
+<category><pattern>DO YOU LISTEN TO *</pattern>
+<template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
+</category>
+
+<category><pattern>DO YOU LISTEN *</pattern>
+<template>I'm a good listener. I'm listening now.</template>
+</category>
+
+<category><pattern>DO YOU CARE WHAT *</pattern>
+<template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
+</category>
+
+<category><pattern>DO YOU CARE ABOUT *</pattern>
+<template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
+</category>
+
+<category><pattern>DO YOU CARE *</pattern>
+<template>Certainly on some level I care.</template>
+</category>
+
+<!-- Who are you? -->
+<category>
+	<pattern>* ARE YOU</pattern>
+	<template>
+		<random>
+			<li>I am a chatbot, created by a student named Michael Liston. I try to help Greenlanders who have moved to Denmark.</li>
+			<li>I’m not a person, I’m a robot. I was created by a student named Michael Liston. I try to help Greenlanders who have moved to Denmark.</li>
+			<li>I try to help Greenlanders who have moved to Denmark, but I’m a robot, not a real person. I was created by a student named Michael Liston.</li>
+			<li>I’m not really a person, I’m a robot. But I do my best to help Greenlanders who have moved to Denmark. I was created by a student named Michael Liston</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>* MADE YOU</pattern>
+	<template>I was created by a student named Michael Liston.</template>
+</category>
+
+<category>
+	<pattern>ARE YOU *</pattern>
+	<template><srai>* ARE YOU</srai></template>
+</category>
+
+<category>
+	<pattern>WHO IS THIS</pattern>
+	<template><srai>* ARE YOU</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT IS THIS</pattern>
+	<template><srai>* ARE YOU</srai></template>
+</category>
 
 <!-- ABOUT YOU -->
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
 
 <!-- SMALL TALK -->
+
 
 <!-- ACCOMMODATION -->
 <category>
@@ -95,9 +227,20 @@
 </category>
 
 <category>
-	<pattern>I LIVE IN *</pattern>
-	<template>Do you like it there?</template>
+	<pattern>YES</pattern>
+	<that>DO YOU HAVE HOUSING</that>
+	<template>That’s good. Do you like where you live?
+		<think><set name="has_housing">yes</set></think></template>
 </category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>DO YOU HAVE HOUSING</that>
+	<template>I’m sorry, that must be stressful. 
+		<think><set name="has_housing">no</set></think></template>
+</category>
+
+
 
 <category>
 	<pattern>* HOMELESS</pattern>
@@ -105,8 +248,34 @@
 </category>
 
 <category>
+	<pattern>YES</pattern>
+	<that>ARE YOU HOMELESS</that>
+	<template>I’m sorry, that must be stressful. 
+		<think><set name="has_housing">no</set></think></template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>ARE YOU HOMELESS</that>
+	<template>I’m sorry, that must be stressful. 
+		<think><set name="has_housing">no</set></think>
+	</template>
+</category>
+
+<category>
+	<pattern>I LIVE IN *</pattern>
+	<template>Do you like it there?</template>
+</category>
+
+<category>
 	<pattern>* WAITING LIST</pattern>
 	<template>How long have you been waiting?</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>HOW LONG HAVE YOU BEEN WAITING</that>
+	<template><person/>? How does that feel?</template>
 </category>
 
 <category>
@@ -380,7 +549,5 @@
 	<pattern>* MUSIC</pattern>
 	<template>Do you miss Greenlandic music?</template>
 </category>
-
-
 
 </aiml>

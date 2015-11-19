@@ -131,9 +131,16 @@
 	<template>I was created by a student named Michael Liston.</template>
 </category>
 
+<category>
+	<pattern>ARE YOU *</pattern>
+	<template><srai>* ARE YOU</srai></template>
+</category>
+
 <!-- ABOUT YOU -->
 
+
 <!-- SMALL TALK -->
+
 
 <!-- ACCOMMODATION -->
 <category>

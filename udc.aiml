@@ -30,4 +30,20 @@
 	</template>
 </category>
 
+<category>
+	<pattern>RANDOM LINES</pattern>
+	<template>
+		<random>
+			<li>Ask me questions so that I can be clear.</li>
+			<li>I like to listen and be of service.</li>
+			<li>You can give me honest feedback.</li>
+			<li>You can be direct with me.</li>
+			<li>I'm not a person like you.</li>
+			<li>I am trying.</li>
+			<li>I try to keep my life in balance.</li>
+			<li>What makes you happy?</li>
+		</random>
+	</template>
+</category>
+
 </aiml>

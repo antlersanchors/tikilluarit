@@ -31,4 +31,16 @@
 	</template>
 </category>
 
+<category><pattern>MY EMAIL</pattern>
+<template><get name="email"/></template>
+</category>
+<category><pattern>MY EMAIL ADDRESS IS *</pattern>
+<template><srai>MY EMAIL IS <star/></srai></template>
+</category>
+<category><pattern>MY EMAIL IS *</pattern>
+<template>I will remember your email is <star/>.  <think><set name="email"><star/></set></think></template>
+</category>
+
+
+
 </aiml>

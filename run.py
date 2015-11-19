@@ -5,7 +5,7 @@ from pb_py import main as api
 host = 'aiaas.pandorabots.com'
 user_key = 'ee3e0e5b6adedd58c40c4e2c84cb55ff'
 app_id = '1409612288159'
-botname = 'tiki'
+botname = 'tikilluarit'
 
 client = nexmo.Client(key='d8f52224', secret='2f64e1f8')
 

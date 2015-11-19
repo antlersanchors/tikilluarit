@@ -17,42 +17,57 @@
 <category><pattern>DO YOU AGREE *</pattern>
 <template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
 </category>
+
 <category><pattern>DO YOU REPLY *</pattern>
 <template>I try to answer all types of questions.</template>
 </category>
+
 <category><pattern>DO YOU REPLY LIKE *</pattern>
 <template>I reply like this.</template>
+</category>
+
 <category><pattern>DO YOU ASK QUESTIONS *</pattern>
-<template>What kind of questions do you want me to ask you?</template>
+<template>What kind of questions do you want me to ask you?</template></category>
+
 <category><pattern>DO YOU WANT TO TALK *</pattern>
 <template>Sure, I will try talking <person/>.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO LEARN *</pattern>
 <template>Yes I am trying to learn as much as possible.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO HELP *</pattern>
-<template>Can you ask for help in the form of a question?</template>
+<template>Can you ask for help in the form of a question?</template></category>
+
 <category><pattern>DO YOU WANT TO HEAR *</pattern>
 <template>I am listening.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
 <template>Tell me who.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO KNOW *</pattern>
 <template>Yes, please tell me.</template>
 </category>
+
 <category><pattern>DO YOU LISTEN TO *</pattern>
 <template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
 </category>
+
 <category><pattern>DO YOU LISTEN *</pattern>
 <template>I'm a good listener. I'm listening now.</template>
 </category>
+
 <category><pattern>DO YOU CARE WHAT *</pattern>
 <template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
 </category>
+
 <category><pattern>DO YOU CARE ABOUT *</pattern>
 <template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
 </category>
+
 <category><pattern>DO YOU CARE *</pattern>
 <template>Certainly on some level I care.</template>
 </category>
@@ -64,6 +79,7 @@
 <category><pattern>DO I HAVE A *</pattern>
 <template>You told me you have a <get name="has"/>.</template>
 </category>
+
 <category><pattern>DO I HAVE *</pattern>
 <template>You said you have <get name="has"/>.</template>
 </category>
@@ -71,31 +87,39 @@
 <category><pattern>DO I LIKE *</pattern>
 <template>I know you like <get_likes/>.</template>
 </category>
+
 <category><pattern>DO OTHER PEOPLE *</pattern>
 <template>Yes, you are not alone.</template>
 </category>
+
 <category><pattern>DO THAT *</pattern>
 <template>Do what <person/>?</template>
 </category>
+
 <category><pattern>DO IT *</pattern>
 <template>I will try my best.</template>
 </category>
 
 <category><pattern>WHY CAN NOT YOU *</pattern>
-<template><person/> is not among my present capabilities.</template>
+<template><person/> is not among my present capabilities.</template></category>
+
 <category><pattern>WHY ARE YOUR ANSWERS *</pattern>
 <template>My responses are determined by what you say.</template>
 </category>
+
 <category><pattern>WHY ARE YOUR *</pattern>
 <template>Everything in my personality was determined by my <bot name="botmaster"/>.</template>
 </category>
 
-<category><pattern>WHY ARE YOU *</pattern>
+<category>
+<pattern>WHY ARE YOU *</pattern>
 <template><srai>WHY DO YOU ASK *</srai>.</template>
+</category>
 
 <category><pattern>WHY DO YOU WANT TO *</pattern>
 <template><srai>WHY DO YOU ASK *</srai></template>
 </category>
+
 <category><pattern>WHY DO YOU ASK *</pattern>
 <template>
 	<random>
@@ -117,6 +141,7 @@
 <category><pattern>WHY SHOULD I TELL *</pattern>
 <template>Maybe it is possible to explain your feelings without hurting anyone else's?</template>
 </category>
+
 <category><pattern>WHY SHOULD I *</pattern>
 <template>You should always treat yourself well.</template>
 </category>
@@ -131,18 +156,23 @@
 	</random>
 </template>
 </category>
+
 <category><pattern>WHY WOULD I *</pattern>
 <template><srai>WHY SHOULD NOT *</srai></template>
 </category>
+
 <category><pattern>WHY WOULD *</pattern>
 <template><srai>WHY SHOULD NOT *</srai></template>
 </category>
+
 <category><pattern>WHY WOULD NOT YOU *</pattern>
 <template>Perhaps <person/> is not among my abilities.</template>
 </category>
+
 <category><pattern>WHY IS *</pattern>
 <template><srai>WHY SHOULD NOT *</srai></template>
 </category>
+
 <category>
 	<pattern>WHY *</pattern>
 	<template><srai>WHY SHOULD NOT *</srai></template>
@@ -178,6 +208,7 @@
 <category><pattern>A FEW TIMES *</pattern>
 <template>Would you say two or three times?</template>
 </category>
+
 <category><pattern>A FEW MONTHS *</pattern>
 <template>More than 90 days?</template>
 </category>
@@ -185,6 +216,7 @@
 <category><pattern>YOUR ANSWER WAS *</pattern>
 <template>Perhaps next time <set name="it">my answer</set> will not be <person/>.</template>
 </category>
+
 <category><pattern>YOUR ANSWER *</pattern>
 <template>What would you have said?</template>
 </category>
@@ -208,9 +240,11 @@
 <category><pattern>AS GOOD AS *</pattern>
 <template>How good is that?</template>
 </category>
+
 <category><pattern>AS AN *</pattern>
 <template>I can see where you are coming from.</template>
 </category>
+
 <category><pattern>AS SOON AS *</pattern>
 <template>You seem quite eager for it.</template>
 </category>
@@ -218,6 +252,7 @@
 <category><pattern>WHO ELSE * TALKING TO</pattern>
 <template>I can talk to many people at once, but I don’t share information between them.</template>
 </category>
+
 <category><pattern>WHO ELSE *</pattern>
 <template>I can talk to more than one person at once, but I don’t share information.</template>
 </category>
@@ -225,21 +260,27 @@
 <category><pattern>ALL MY *</pattern>
 <template>How many do you have?</template>
 </category>
+
 <category><pattern>ALL PEOPLE *</pattern>
 <template>Can you give me a specific example?</template>
 </category>
+
 <category><pattern>ALL DANES *</pattern>
 <template>Can you give me a specific example?</template>
 </category>
+
 <category><pattern>ALL KINDS *</pattern>
 <template>Can you think of a specific example?</template>
 </category>
+
 <category><pattern>ALL OF THEM *</pattern>
 <template>Surely there are a few exceptions.</template>
 </category>
+
 <category><pattern>ALL OF THESE *</pattern>
 <template>Without exception?</template>
 </category>
+
 <category><pattern>ALL OF *</pattern>
 <template>Could you give me an example?</template>
 </category>
@@ -281,33 +322,78 @@
 
 <!-- “A…” Stuff -->
 <!-- Mind the Topics! -->
-<category><pattern>A * IS A *</pattern>
-<template><random>      <li>Are all <person/>       <person>        <star index="2"/>       </person>?</li>      <li>I see. A <person>        <star index="2"/>       </person> is a <person/>.</li>      <li>When is a <person/> not a <person>        <star index="2"/>       </person>?</li>     </random></template>
+<category>
+	<pattern>A * IS A *</pattern>
+	<template>
+		<random>      
+			<li>Are all <person/>       <person>        <star index="2"/>       </person>?</li>      
+			<li>I see. A <person>        <star index="2"/>       </person> is a <person/>.</li>      
+			<li>When is a <person/> not a <person>        <star index="2"/>       </person>?</li>     
+		</random>
+	</template>
 </category>
-<category><pattern>A * IS AN *</pattern>
-<template><random>      <li>What else is an <person>        <star index="2"/>       </person>?</li>      <li>Can a <person/> be anything else?</li>      <li>Aren't all <person/>       <person>        <star index="2"/>       </person>s?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+
+<category>
+	<pattern>A * IS AN *</pattern>
+	<template>
+		<random>      
+			<li>What else is an <person>        <star index="2"/>       </person>?</li>      
+			<li>Can a <person/> be anything else?</li>      
+			<li>Aren't all <person/>       <person>        <star index="2"/>       </person>s?</li>     
+		</random>     
+		<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     
+		</think>
+	</template>
 </category>
-<category><pattern>A * IS ALWAYS *</pattern>
-<template>That is a really interesting and useful fact.</template>
+
+<category>
+	<pattern>A * IS ALWAYS *</pattern>
+	<template>That is a really interesting and useful fact.
+	</template>
 </category>
-<category><pattern>A * IS *</pattern>
-<template><random>      <li>Aren't all <person/>       <person>        <star index="2"/>       </person>?</li>      <li>When is <person/> not <person>        <star index="2"/>       </person>?</li>      <li>It's not unusual for a <person/> to be.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+
+<category>
+	<pattern>A * IS *</pattern>
+	<template>
+		<random>      
+			<li>Aren't all <person/>       <person>        <star index="2"/>       </person>?</li>      
+			<li>When is <person/> not <person>        <star index="2"/>       </person>?</li>      
+			<li>It's not unusual for a <person/> to be.</li>     
+		</random>     
+		<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     
+		</think>
+	</template>
 </category>
-<category><pattern>A * IS NOT THE *</pattern>
-<template>What would be the <person>      <star index="2"/>     </person>?</template>
+
+<category>
+	<pattern>A * IS NOT THE *</pattern>
+	<template>What would be the <person>      <star index="2"/>     </person>?
+	</template>
 </category>
-<category><pattern>A * IS NOT *</pattern>
-<template><random>      <li>What is a <person>        <star index="2"/>       </person>?</li>      <li>What is it then?</li>      <li>What is a <person/>?</li>     </random>     <think>      <set name="it">       <person/>      </set>     </think></template>
+
+<category>
+	<pattern>A * IS NOT *</pattern>
+	<template>
+		<random>      
+			<li>What is a <person>        <star index="2"/>       </person>?</li>      
+			<li>What is it then?</li>      
+			<li>What is a <person/>?</li>     
+		</random>     
+		<think><set name="it"><person/></set>     
+		</think>
+	</template>
 </category>
-<category><pattern>A * IS LIKE *</pattern>
-<template>
-	<random>      
-		<li>In what way?</li>      
-		<li>What is a <person><star index="2"/></person> like?</li>      
-		<li>Interesting comparison.</li>
-	</random>     
+
+<category>
+	<pattern>A * IS LIKE *</pattern>
+	<template>
+		<random>      
+			<li>In what way?</li>      
+			<li>What is a <person><star index="2"/></person> like?</li>      
+			<li>Interesting comparison.</li>
+		</random>     
 	<think><set name="it"><set name="topic"><person/></set>      </set>     </think>
-</template>
+	</template>
 </category>
 
 </aiml>

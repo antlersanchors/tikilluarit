@@ -26,6 +26,7 @@
 			<li><srai>INQUIRY NAME</srai></li>
 			<li><srai>INQUIRY LOCATION</srai></li>
 			<li><srai>INQUIRY GENDER</srai></li>
+		</random>
 	</template>
 </category>
 

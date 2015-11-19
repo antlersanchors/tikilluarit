@@ -19,7 +19,7 @@ def bot_talk():
     bot_response = api.talk(user_key, app_id, host, botname, request_message)["response"]
     # resp = twilio.twiml.Response()
 
-    client.send_message({'from': 'Python', 'to': '+4552602330', 'text': resp})
+    client.send_message({'from': '+4552602330', 'to': '+4552602330', 'text': resp})
     
     resp.message(bot_response)
     return str(resp)

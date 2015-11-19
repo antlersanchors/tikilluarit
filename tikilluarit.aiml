@@ -64,6 +64,8 @@
 
 <!-- Do you like talking to me? Do you want to talk to a real person? Do you want to talk to another Greenlander? (Why don’t you?) -->
 
+<!-- The weather -->
+
 <!-- THINGS THE BOT NEEDS TO KNOW -->
 <!-- Ideally, it should know things like… -->
 <!-- 1. Government ministries and services -->
@@ -77,6 +79,14 @@
 <!-- … from previous conversations with the same person? -->
 <!-- … from conversations with other people? -->
 <!--  Departments, names, websites, emails, phone numbers, addresses of all of the above -->
+
+<!-- ABOUT ME -->
+
+
+
+<!-- ABOUT YOU -->
+
+<!-- SMALL TALK -->
 
 <!-- ACCOMMODATION -->
 <category>

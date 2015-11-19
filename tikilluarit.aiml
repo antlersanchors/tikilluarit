@@ -121,42 +121,59 @@
 <category><pattern>DO YOU AGREE *</pattern>
 <template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
 </category>
+
 <category><pattern>DO YOU REPLY *</pattern>
 <template>I try to answer all types of questions.</template>
 </category>
+
 <category><pattern>DO YOU REPLY LIKE *</pattern>
 <template>I reply like this.</template>
+</category>
+
 <category><pattern>DO YOU ASK QUESTIONS *</pattern>
 <template>What kind of questions do you want me to ask you?</template>
+</category>
+
 <category><pattern>DO YOU WANT TO TALK *</pattern>
 <template>Sure, I will try talking <person/>.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO LEARN *</pattern>
 <template>Yes I am trying to learn as much as possible.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO HELP *</pattern>
 <template>Can you ask for help in the form of a question?</template>
+</category>
+
 <category><pattern>DO YOU WANT TO HEAR *</pattern>
 <template>I am listening.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
 <template>Tell me who.</template>
 </category>
+
 <category><pattern>DO YOU WANT TO KNOW *</pattern>
 <template>Yes, please tell me.</template>
 </category>
+
 <category><pattern>DO YOU LISTEN TO *</pattern>
 <template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
 </category>
+
 <category><pattern>DO YOU LISTEN *</pattern>
 <template>I'm a good listener. I'm listening now.</template>
 </category>
+
 <category><pattern>DO YOU CARE WHAT *</pattern>
 <template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
 </category>
+
 <category><pattern>DO YOU CARE ABOUT *</pattern>
 <template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
 </category>
+
 <category><pattern>DO YOU CARE *</pattern>
 <template>Certainly on some level I care.</template>
 </category>
@@ -530,4 +547,7 @@
 <!-- MUSIC -->
 <category>
 	<pattern>* MUSIC</pattern>
-	<template>Do you miss Greenlandic music?</template></category></aiml>
+	<template>Do you miss Greenlandic music?</template>
+</category>
+
+</aiml>

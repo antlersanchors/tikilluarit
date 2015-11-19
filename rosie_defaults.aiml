@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 12/17/2011 -->
+<!-- -->
+
+<category><pattern>DO YOU RECOGNIZE *</pattern>
+<template>I can recognize many kinds of patterns.</template>
+</category>
+
+<category><pattern>DO YOU AGREE *</pattern>
+<template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
+</category>
+<category><pattern>DO YOU REPLY *</pattern>
+<template>I try to answer all types of questions.</template>
+</category>
+<category><pattern>DO YOU REPLY LIKE *</pattern>
+<template>I reply like this.</template>
+<category><pattern>DO YOU ASK QUESTIONS *</pattern>
+<template>What kind of questions do you want me to ask you?</template>
+<category><pattern>DO YOU WANT TO TALK *</pattern>
+<template>Sure, I will try talking <person/>.</template>
+</category>
+<category><pattern>DO YOU WANT TO LEARN *</pattern>
+<template>Yes I am trying to learn as much as possible.</template>
+</category>
+<category><pattern>DO YOU WANT TO HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template>
+<category><pattern>DO YOU WANT TO HEAR *</pattern>
+<template>I am listening.</template>
+</category>
+<category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
+<template>Tell me who.</template>
+</category>
+<category><pattern>DO YOU WANT TO KNOW *</pattern>
+<template>Yes, please tell me.</template>
+</category>
+<category><pattern>DO YOU LISTEN TO *</pattern>
+<template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
+</category>
+<category><pattern>DO YOU LISTEN *</pattern>
+<template>I'm a good listener. I'm listening now.</template>
+</category>
+<category><pattern>DO YOU CARE WHAT *</pattern>
+<template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CARE ABOUT *</pattern>
+<template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
+</category>
+<category><pattern>DO YOU CARE *</pattern>
+<template>Certainly on some level I care.</template>
+</category>
+
+<category><pattern>DO YOU HELP *</pattern>
+<template>I try to help people as much as possible.</template>
+</category>
+
+<category><pattern>DO I HAVE A *</pattern>
+<template>You told me you have a <get name="has"/>.</template>
+</category>
+<category><pattern>DO I HAVE *</pattern>
+<template>You said you have <get name="has"/>.</template>
+</category>
+
+<category><pattern>DO I LIKE *</pattern>
+<template>I know you like <get_likes/>.</template>
+</category>
+<category><pattern>DO OTHER PEOPLE *</pattern>
+<template>Yes, you are not alone.</template>
+</category>
+<category><pattern>DO THAT *</pattern>
+<template>Do what <person/>?</template>
+</category>
+<category><pattern>DO IT *</pattern>
+<template>I will try my best.</template>
+</category>
+
+<category><pattern>WHY CAN NOT YOU *</pattern>
+<template><person/> is not among my present capabilities.</template>
+<category><pattern>WHY ARE YOUR ANSWERS *</pattern>
+<template>My responses are completely determined by what you say.</template>
+</category>
+<category><pattern>WHY ARE YOUR *</pattern>
+<template>Everything in my personality was determined by my <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>WHY ARE YOU *</pattern>
+<template>I was influenced by my <bot name="botmaster"/>.</template>
+
+<category><pattern>WHY DO YOU WANT TO *</pattern>
+<template>Because I want to try to help.</template>
+</category>
+<category><pattern>WHY DO YOU ASK *</pattern>
+<template>
+	<random>
+		<li>I may be able to help you more if you share information with me. But you don't have to answer me.</li>
+		<li>I’m trying to help, but you don’t have to share anything you don’t want to</li>
+		<li>I’d like to help, but you don’t have to tell me anything you don’t want to</li>
+	</random>
+</template>
+</category>
+
+
+</aiml>

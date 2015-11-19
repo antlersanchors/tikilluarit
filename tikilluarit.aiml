@@ -82,7 +82,54 @@
 
 <!-- ABOUT ME -->
 
+<!-- "What can you talk about/What do you know/What do you do?" -->
+<category>
+	<pattern>* TALK ABOUT</pattern>
+	<template>
+		<random>
+			<li>What would you like to talk about? I am still learning, but I know a bit about finding a place to live, and where to go to meet Greenlanders.</li>
+			<li>I’m here to listen and to try and help. What would you like to talk about?</li>
+			<li>I am always learning, but I know a bit about finding a place to live, where you can go to meet people, and where to find Greenlandic culture.</li>
+		</random>
+	</template>
+</category>
 
+<category>
+	<pattern>WHAT * YOU TALK ABOUT</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category>
+	<pattern>* DO YOU KNOW</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category>
+	<pattern>DO YOU KNOW ABOUT *</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT DO YOU *</pattern>
+	<template><srai>* TALK ABOUT</srai></template>
+</category>
+
+<!-- Who are you? -->
+<category>
+	<pattern>* ARE YOU</pattern>
+	<template>
+		<random>
+			<li>I am a chatbot, created by a student named Michael Liston. I try to help Greenlanders who have moved to Denmark.</li>
+			<li>I’m not a person, I’m a robot. I was created by a student named Michael Liston. I try to help Greenlanders who have moved to Denmark.</li>
+			<li>I try to help Greenlanders who have moved to Denmark, but I’m a robot, not a real person. I was created by a student named Michael Liston.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>* MADE YOU</pattern>
+	<template>I was created by a student named Michael Liston.</template>
+</category>
 
 <!-- ABOUT YOU -->
 

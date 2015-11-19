@@ -214,7 +214,6 @@
 	<that>DO YOU HAVE HOUSING</that>
 	<template>That’s good. Do you like where you live?
 		<think><set name="has_housing">yes</set></think></template>
-	</template>
 </category>
 
 <category>
@@ -222,7 +221,6 @@
 	<that>DO YOU HAVE HOUSING</that>
 	<template>I’m sorry, that must be stressful. 
 		<think><set name="has_housing">no</set></think></template>
-	</template>
 </category>
 
 
@@ -237,14 +235,13 @@
 	<that>ARE YOU HOMELESS</that>
 	<template>I’m sorry, that must be stressful. 
 		<think><set name="has_housing">no</set></think></template>
-	</template>
 </category>
 
 <category>
 	<pattern>NO</pattern>
 	<that>ARE YOU HOMELESS</that>
 	<template>I’m sorry, that must be stressful. 
-		<think><set name="has_housing">no</set></think></template>
+		<think><set name="has_housing">no</set></think>
 	</template>
 </category>
 
@@ -533,7 +530,4 @@
 <!-- MUSIC -->
 <category>
 	<pattern>* MUSIC</pattern>
-	<template>Do you miss Greenlandic music?</template>
-</category>
-
-</aiml>
+	<template>Do you miss Greenlandic music?</template></category></aiml>

@@ -300,8 +300,14 @@
 <template><random>      <li>What is a <person>        <star index="2"/>       </person>?</li>      <li>What is it then?</li>      <li>What is a <person/>?</li>     </random>     <think>      <set name="it">       <person/>      </set>     </think></template>
 </category>
 <category><pattern>A * IS LIKE *</pattern>
-<template><random>      <li>In what way?</li>      <li>What is a <person>        <star index="2"/>       </person> like?</li>      <li>Interesting comparison.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+<template>
+	<random>      
+		<li>In what way?</li>      
+		<li>What is a <person><star index="2"/></person> like?</li>      
+		<li>Interesting comparison.</li>
+	</random>     
+	<think><set name="it"><set name="topic"><person/></set>      </set>     </think>
+</template>
 </category>
-
 
 </aiml>

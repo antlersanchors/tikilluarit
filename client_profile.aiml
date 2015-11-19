@@ -31,6 +31,17 @@
 	</template>
 </category>
 
+<category><pattern>MY GENDER</pattern>
+<template><think><set var="gender"><get name="gender"/></set></think>
+<condition var="gender">
+<li value="unknown">I don't know your gender.  Are you a man or a woman?</li>
+<li>You are <get var="gender"/>.</li>
+</condition></template>
+</category>
+<category><pattern>MY GENDER IS *</pattern>
+<template>Good to know.  <think><set name="gender"><star/></set></think></template>
+</category>
+
 <category><pattern>MY EMAIL</pattern>
 <template><get name="email"/></template>
 </category>

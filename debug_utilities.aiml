@@ -13,38 +13,17 @@
 <!-- Tikilluarit is a prototype of a chatbot to support Greenlanders moving to Denmark -->
 <!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
 
-<!-- Following the example of Rosie, this file contains -->
-<!-- general conversational type content. -->
+<!-- These are utility functions for debugging purposes, should probably avoid having them in production! -->
 
 <category>
-	<pattern>HI</pattern>
-	<template>
-			<condition name="name_is_known">
-			<li value="yes"><srai>HINAMEKNOWN</srai></li>	
-			<li>What is your name?</li>
-			</condition>
-	</template>
+	<pattern>ZDEBUG</pattern>
+	<template>Value of name_is_known is <get name="name_is_known"/></template>
 </category>
 
 <category>
-	<pattern>HINAMEKNOWN</pattern>
-	<template>
-		<random>
-			<li>Hello, how are you?</li>
-			<li>Hi!</li>
-			<li>Hey there.</li>
-			<li>Good day!</li>
-			<li>Greetings!</li>
-		</random>
+	<pattern>ZRESET</pattern>
+	<template><set name="name_is_known"></set>
 	</template>
-</category>
-
-
-
-<category>
-	<pattern>*</pattern>
-	<that>WHAT IS YOUR NAME</that>
-	<template>Nice to meet you, <star/>!<think><set name="name_is_known">yes</set><set name="client_name"><star/></set></think></template>
 </category>
 
 </aiml>

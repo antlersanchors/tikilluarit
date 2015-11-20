@@ -19,21 +19,41 @@
 <category>
 	<pattern>HI</pattern>
 	<template>
-		<condition name="name_is_known"><value>yes</value>
-			<random>
-				<li>Hello, how are you?</li>
-				<li>Hi!</li>
-				<li>Hey there.</li>
-				<li>Good day!</li>
-				<li>Hi!</li>
-			</random>
-		</condition>What is your name?</template>
+			<condition name="name_is_known">
+			<li value="yes"><srai>HINAMEKNOWN</srai></li>	
+			<li>What is your name?</li>
+			</condition>
+	</template>
+</category>
+
+<category>
+	<pattern>HINAMEKNOWN</pattern>
+	<template>
+		<random>
+			<li>Hello, how are you?</li>
+			<li>Hi!</li>
+			<li>Hey there.</li>
+			<li>Good day!</li>
+			<li>Greetings!</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DEBUG</pattern>
+	<template>Value of name_is_known is <get name="name_is_known"/></template>
+</category>
+
+<category>
+	<pattern>RESET</pattern>
+	<template><set name="name_is_known"></set>
+	</template>
 </category>
 
 <category>
 	<pattern>*</pattern>
 	<that>WHAT IS YOUR NAME</that>
-	<template>Nice to meet you, <set name="name_is_known">yes</set><set name="client_name"><star/></set><star/>!</template>
+	<template>Nice to meet you, <star/>!<think><set name="name_is_known">yes</set><set name="client_name"><star/></set></think></template>
 </category>
 
 </aiml>

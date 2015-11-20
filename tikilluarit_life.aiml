@@ -57,6 +57,11 @@
 </category>
 
 <category>
+	<pattern>I WANT TO SPEAK WITH *</pattern>
+	<template><srai>_ NEED *</srai></template>
+</category>
+
+<category>
 	<pattern>* FRIENDS _</pattern>
 	<template>Is it hard to make friends here?</template>
 </category>

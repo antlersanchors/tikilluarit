@@ -31,6 +31,7 @@
 			<li>Do you think you will go back to Greenland for a visit soon?</li>
 			<li>Do you live with any other Greenlanders?</li>
 			<li>Greenland sounds beautiful. I wish I could visit.</li>
+		</random>
 	</template>
 </category>
 
@@ -103,6 +104,8 @@
 			<li>I think it sounds very hard to leave your family and friends. I don’t have any, so I don’t have to worry about that.</li>
 			<li>Was it challenging to move to Denmark?</li>
 			<li>Do you have questions about living in Copenhagen?</li>
+			<li>What do you wish you knew about living in Denmark before you came here?</li>
+			<li>What do you wish was different about living in Copenhagen?</li>
 		</random>
 	</template>
 </category>
@@ -115,57 +118,7 @@
 
 <category>
 	<pattern></pattern>
-	<template>Do you have questions about living in Copenhagen?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>What do you wish was different about living in Copenhagen?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>If you could change something about living in Copenhagen, what would it be?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>What do you wish you knew about living in Denmark before you came here?</template>
-</category>
-
-<category>
-	<pattern></pattern>
 	<template>What has been the hardest thing about living in Denmark?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>What do you miss most about Greenland?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Do you think you will go back for a visit soon?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Do you talk to people in Greenland often?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Do you like talking to me?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>What’s it like talking with me?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Would you like to talk about this topic with a person?</template>
 </category>
 
 <category>

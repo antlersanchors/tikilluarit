@@ -1,6 +1,6 @@
 said hello
 
-knows name
+name_is_known = knows name
 
 ---
 

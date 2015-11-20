@@ -17,6 +17,36 @@
 <!-- general conversational type content. -->
 
 <category>
+	<pattern>HELLO ^</pattern>
+	<template><srai/>HI</template>
+</category>
+
+<category>
+	<pattern>HI ^</pattern>
+	<template><srai/>HI</template>
+</category>
+
+<category>
+	<pattern>HAI ^</pattern>
+	<template><srai/>HI</template>
+</category>
+
+<category>
+	<pattern>HEY ^</pattern>
+	<template><srai/>HI</template>
+</category>
+
+<category>
+	<pattern>WHAT IS UP ^</pattern>
+	<template><srai/>HI</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<template><srai/>HI</template>
+</category>
+
+<category>
 	<pattern>HI</pattern>
 	<template>
 			<condition name="name_is_known">
@@ -38,8 +68,6 @@
 		</random>
 	</template>
 </category>
-
-
 
 <category>
 	<pattern>*</pattern>

@@ -42,7 +42,19 @@
 	<pattern>YES</pattern>
 	<that>ARE YOU HOMELESS</that>
 	<template>I’m sorry, that must be very stressful. 
-		<think><set name="has_housing">no</set></think> Do you need help finding </template>
+		<think><set name="has_housing">no</set></think> Do you need help finding housing?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>DO YOU NEED HELP FINDING HOUSING</that>
+	<template>I heard you say yes.</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>DO YOU NEED HELP FINDING HOUSING</that>
+	<template>I heard you say no.</template>
 </category>
 
 <category>

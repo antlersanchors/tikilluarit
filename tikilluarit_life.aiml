@@ -46,7 +46,7 @@
 </category>
 
 <category>
-	<pattern>_ NEED *</pattern>
+	<pattern>^ NEED *</pattern>
 	<template>
 		<random>
 			<li>Why is that important to you?</li>
@@ -62,12 +62,12 @@
 </category>
 
 <category>
-	<pattern>* FRIENDS _</pattern>
+	<pattern>^ FRIENDS ^</pattern>
 	<template>Is it hard to make friends here?</template>
 </category>
 
 <category>
-	<pattern>_ HARD TO MAKE FRIENDS *</pattern>
+	<pattern>^ HARD TO MAKE FRIENDS ^</pattern>
 	<template>Why do you think that is?</template>
 </category>
 
@@ -77,7 +77,7 @@
 </category>
 
 <category>
-	<pattern>_ FEEL *</pattern>
+	<pattern>^ FEEL *</pattern>
 	<template>
 		<random>
 			<li>When you feel that way, what do you do?</li>
@@ -93,7 +93,7 @@
 </category>
 
 <category>
-	<pattern>_ IN DENMARK *</pattern>
+	<pattern>^ IN DENMARK ^</pattern>
 	<template>
 		<random>
 			<li>What do you like about living in Denmark?</li>
@@ -104,7 +104,7 @@
 </category>
 
 <category>
-	<pattern>_ TO DENMARK *</pattern>
+	<pattern>_ TO DENMARK ^</pattern>
 	<template>
 		<random>
 			<li>I think it must be very hard to leave your home. I’ve never had to do that!</li>
@@ -118,7 +118,7 @@
 </category>
 
 <category>
-	<pattern>_ WELCOME *</pattern>
+	<pattern>_ WELCOME ^</pattern>
 	<template>
 		<random>
 			<li>Is there someone whose help you’ve really appreciated in Copenhagen?</li>
@@ -156,12 +156,12 @@
 
 <!-- MOOD -->
 <category>
-	<pattern>_ LONELY *</pattern>
+	<pattern>^ LONELY ^</pattern>
 	<template>Do you feel lonely?</template>
 </category>
 
 <category>
-	<pattern>_ SAD *</pattern>
+	<pattern>^ SAD ^</pattern>
 	<template>Do you feel sad?</template>
 </category>
 
@@ -178,19 +178,15 @@
 </category>
 
 <category>
-	<pattern>I FEEL *</pattern>
+	<pattern>^ I FEEL *</pattern>
 	<template>
 		<random>
 			<li>Tell me about what it is like to feel <star/>?</li>
 			<li>Where do you feel the strongest in Copenhagen?</li>
 			<li>When do you feel the strongest in Copenhagen?</li>
+			<li>Do you share those feelings with others?</li>
 		</random>
 	</template>
-</category>
-
-<category>
-	<pattern>_ I FEEL *</pattern>
-	<template>Do you share these feelings with others?</template>
 </category>
 
 <category>

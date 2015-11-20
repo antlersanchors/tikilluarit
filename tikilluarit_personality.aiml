@@ -34,8 +34,8 @@
 
 <category>
 	<pattern>*</pattern>
-	<that>HELLO WHAT IS YOUR NAME</that>
-	<template>Nice to meet you, <set name="name_is_known">yes</set><star/>!</template>
+	<that>WHAT IS YOUR NAME</that>
+	<template>Nice to meet you, <set name="name_is_known"><value>yes</value></set><star/>!</template>
 </category>
 
 </aiml>

@@ -85,19 +85,14 @@
 </category>
 
 <category>
-	<pattern></pattern>
-	<template>What do you like about living in Denmark?</template>
-</category>
-
-
-<category>
-	<pattern></pattern>
-	<template>How do you like living in Denmark?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Do you live with other people?</template>
+	<pattern>_ IN DENMARK *</pattern>
+	<template>
+		<random>
+			<li>What do you like about living in Denmark?</li>
+			<li>How do you like living in Denmark?</li>
+			<li>What do you like about living in Denmark?</li>
+		</random>
+	</template>
 </category>
 
 <category>
@@ -107,23 +102,15 @@
 			<li>I think it must be very hard to leave your home. I’ve never had to do that!</li>
 			<li>I think it sounds very hard to leave your family and friends. I don’t have any, so I don’t have to worry about that.</li>
 			<li>Was it challenging to move to Denmark?</li>
+			<li>Do you have questions about living in Copenhagen?</li>
 		</random>
 	</template>
 </category>
 
-<category>
-	<pattern></pattern>
-	<template>I think it sounds very hard to leave your family and friends. I don’t have any, so I don’t have to worry about that.</template>
-</category>
-
+<!-- How does this one work, actually, from a programmatic standpoint? -->
 <category>
 	<pattern></pattern>
 	<template>Would you like to talk more about this topic?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>What would you like to talk about?</template>
 </category>
 
 <category>

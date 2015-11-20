@@ -16,19 +16,19 @@
 <!-- ACCOMMODATION -->
 <category>
 	<pattern>* HOUSING</pattern>
-	<template>Do you have housing?</template>
+	<template>Do you have somewhere to live?</template>
 </category>
 
 <category>
 	<pattern>YES</pattern>
-	<that>DO YOU HAVE HOUSING</that>
+	<that>DO YOU HAVE SOMEWHERE TO LIVE</that>
 	<template>That’s good. Do you like where you live?
 		<think><set name="has_housing">yes</set></think></template>
 </category>
 
 <category>
 	<pattern>NO</pattern>
-	<that>DO YOU HAVE HOUSING</that>
+	<that>DO YOU HAVE SOMEWHERE TO LIVE</that>
 	<template>I’m sorry, that must be stressful. 
 		<think><set name="has_housing">no</set></think></template>
 </category>
@@ -41,8 +41,8 @@
 <category>
 	<pattern>YES</pattern>
 	<that>ARE YOU HOMELESS</that>
-	<template>I’m sorry, that must be stressful. 
-		<think><set name="has_housing">no</set></think></template>
+	<template>I’m sorry, that must be very stressful. 
+		<think><set name="has_housing">no</set></think> Do you need help finding </template>
 </category>
 
 <category>

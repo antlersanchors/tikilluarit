@@ -112,6 +112,17 @@
 	</template>
 </category>
 
+<category>
+	<pattern>_ WELCOME *</pattern>
+	<template>
+		<random>
+			<li>Is there someone whose help you’ve really appreciated in Copenhagen?</li>
+			<li>Have you felt welcome in Denmark?</li>
+			<li>I see. Would you like to tell me more about how that feels?</li>
+		</random>
+	</template>
+</category>
+
 <!-- How does this one work, actually, from a programmatic standpoint? -->
 <category>
 	<pattern></pattern>
@@ -121,11 +132,6 @@
 <category>
 	<pattern></pattern>
 	<template>What has been the hardest thing about living in Denmark?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Would you like to talk about this topic with a Greenlander?</template>
 </category>
 
 <category>
@@ -145,64 +151,47 @@
 
 <!-- MOOD -->
 <category>
-	<pattern>* LONELY</pattern>
-	<template>Are you lonely?</template>
+	<pattern>_ LONELY *</pattern>
+	<template>Do you feel lonely?</template>
 </category>
 
 <category>
-	<pattern>* SAD</pattern>
-	<template>Are you feeling sad?</template>
+	<pattern>_ SAD *</pattern>
+	<template>Do you feel sad?</template>
 </category>
 
 <category>
 	<pattern>YES</pattern>
-	<that>ARE YOU FEELING SAD</that>
-	<template>I’m sorry to hear that.</template>
+	<that>DO YOU FEEL SAD</that>
+	<template>I’m sorry to hear that. What do you do when you feel that way?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>DO YOU FEEL LONELY</that>
+	<template>I’m sorry to hear that. What do you do when you feel that way?</template>
 </category>
 
 <category>
 	<pattern>I FEEL *</pattern>
-	<template>Tell me about what it is like to feel <star/>?</template>
+	<template>
+		<random>
+			<li>Tell me about what it is like to feel <star/>?</li>
+			<li>Where do you feel the strongest in Copenhagen?</li>
+			<li>When do you feel the strongest in Copenhagen?</li>
+		</random>
+	</template>
 </category>
 
 <category>
-	<pattern></pattern>
+	<pattern>_ I FEEL *</pattern>
 	<template>Do you share these feelings with others?</template>
 </category>
 
 <category>
-	<pattern></pattern>
+	<pattern>*</pattern>
+	<that>DO YOU SHARE THESE FEELINGS WITH OTHERS</that>
 	<template>How does it make you feel to do that?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Where do you feel the strongest in Copenhagen?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>When do you feel the strongest in Copenhagen?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Is there someone whose help you’ve really appreciated in Copenhagen?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Have you felt welcome in Denmark?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>Why?</template>
-</category>
-
-<category>
-	<pattern></pattern>
-	<template>I see. Would you like to tell me more about how that feels?</template>
 </category>
 
 </aiml>

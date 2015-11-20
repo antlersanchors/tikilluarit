@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 12/17/2011 -->
+<!-- -->
+
+<!-- Tikilluarit is a prototype of a chatbot to support Greenlanders moving to Denmark -->
+<!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
+
+<!-- ACCOMMODATION -->
+<category>
+	<pattern>* HOUSING</pattern>
+	<template>Do you have housing?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>DO YOU HAVE HOUSING</that>
+	<template>That’s good. Do you like where you live?
+		<think><set name="has_housing">yes</set></think></template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>DO YOU HAVE HOUSING</that>
+	<template>I’m sorry, that must be stressful. 
+		<think><set name="has_housing">no</set></think></template>
+</category>
+
+<category>
+	<pattern>* HOMELESS</pattern>
+	<template>Are you homeless?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>ARE YOU HOMELESS</that>
+	<template>I’m sorry, that must be stressful. 
+		<think><set name="has_housing">no</set></think></template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>ARE YOU HOMELESS</that>
+	<template>I’m sorry, that must be stressful. 
+		<think><set name="has_housing">no</set></think>
+	</template>
+</category>
+
+<category>
+	<pattern>I LIVE IN *</pattern>
+	<template>Do you like it there?</template>
+</category>
+
+<category>
+	<pattern>* WAITING LIST</pattern>
+	<template>How long have you been waiting?</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>HOW LONG HAVE YOU BEEN WAITING</that>
+	<template><person/>? How does that feel?</template>
+</category>
+
+<category>
+	<pattern>* WORKER</pattern>
+	<template>Do you have a social worker?</template>
+</category>
+
+<category>
+	<pattern>* LIVING IN DENMARK</pattern>
+	<template>How long have you been living in Denmark?</template>
+</category>
+
+</aiml>

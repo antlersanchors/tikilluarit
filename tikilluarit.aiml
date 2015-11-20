@@ -220,73 +220,7 @@
 <!-- SMALL TALK -->
 
 
-<!-- ACCOMMODATION -->
-<category>
-	<pattern>* HOUSING</pattern>
-	<template>Do you have housing?</template>
-</category>
 
-<category>
-	<pattern>YES</pattern>
-	<that>DO YOU HAVE HOUSING</that>
-	<template>That’s good. Do you like where you live?
-		<think><set name="has_housing">yes</set></think></template>
-</category>
-
-<category>
-	<pattern>NO</pattern>
-	<that>DO YOU HAVE HOUSING</that>
-	<template>I’m sorry, that must be stressful. 
-		<think><set name="has_housing">no</set></think></template>
-</category>
-
-
-
-<category>
-	<pattern>* HOMELESS</pattern>
-	<template>Are you homeless?</template>
-</category>
-
-<category>
-	<pattern>YES</pattern>
-	<that>ARE YOU HOMELESS</that>
-	<template>I’m sorry, that must be stressful. 
-		<think><set name="has_housing">no</set></think></template>
-</category>
-
-<category>
-	<pattern>NO</pattern>
-	<that>ARE YOU HOMELESS</that>
-	<template>I’m sorry, that must be stressful. 
-		<think><set name="has_housing">no</set></think>
-	</template>
-</category>
-
-<category>
-	<pattern>I LIVE IN *</pattern>
-	<template>Do you like it there?</template>
-</category>
-
-<category>
-	<pattern>* WAITING LIST</pattern>
-	<template>How long have you been waiting?</template>
-</category>
-
-<category>
-	<pattern>*</pattern>
-	<that>HOW LONG HAVE YOU BEEN WAITING</that>
-	<template><person/>? How does that feel?</template>
-</category>
-
-<category>
-	<pattern>* WORKER</pattern>
-	<template>Do you have a social worker?</template>
-</category>
-
-<category>
-	<pattern>* LIVING IN DENMARK</pattern>
-	<template>How long have you been living in Denmark?</template>
-</category>
 
 <category>
 	<pattern>* WITH GREENLANDERS</pattern>

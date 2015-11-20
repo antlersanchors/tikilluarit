@@ -25,7 +25,8 @@
 			<li><srai>RANDOM LINES</srai></li>
 			<li><srai>INQUIRY NAME</srai></li>
 			<li><srai>INQUIRY LOCATION</srai></li>
-			<li><srai>INQUIRY GENDER</srai></li>
+			<!-- Taking out inquiry about gender because it felt weird to me last night -->
+			<!-- <li><srai>INQUIRY GENDER</srai></li> -->
 		</random>
 	</template>
 </category>
@@ -41,7 +42,7 @@
 			<li>I'm not a person like you.</li>
 			<li>I am trying.</li>
 			<li>I try to keep my life in balance.</li>
-			<li>What makes you happy?</li>
+
 		</random>
 	</template>
 </category>

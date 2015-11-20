@@ -28,14 +28,14 @@
 				<li>Hi!</li>
 			</random>
 		</condition>
-		Hello, what is your name?
+		Hello what is your name?
 	</template>
 </category>
 
 <category>
 	<pattern>*</pattern>
-	<that>WHAT IS YOUR NAME</that>
-	<template>Nice to meet you, <set name="name_is_known"><value>yes</value></set><star/>!</template>
+	<that>HELLO WHAT IS YOUR NAME</that>
+	<template>Nice to meet you, <set name="name_is_known">yes</set></template>
 </category>
 
 </aiml>

@@ -67,7 +67,14 @@
 
 <category>
 	<pattern>I LIVE IN *</pattern>
-	<template>Do you like it there?</template>
+	<template>Do you like it?</template>
+</category>
+
+<!-- This could catch a lot of things! -->
+<category>
+	<pattern>*</pattern>
+	<that>DO YOU LIKE IT</that>
+	<template>Tell me more about that?</template>
 </category>
 
 <category>
@@ -96,6 +103,12 @@
 	<pattern>*</pattern>
 	<that>HOW LONG HAVE YOU BEEN LIVING IN DENMARK</that>
 	<template>How does it feel?</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>HOW LONG HAVE YOU BEEN LIVING IN DENMARK</that>
+	<template>You’ve been here <person/>.</template>
 </category>
 
 </aiml>

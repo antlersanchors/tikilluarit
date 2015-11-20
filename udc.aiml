@@ -36,17 +36,22 @@
 	<pattern>RANDOM LINES</pattern>
 	<template>
 		<random>
-			<li>Ask me questions so that I can try to help.</li>
+			<li>Would you like to talk about this with a person?</li>
+			<li>Would you like to talk about this with a Greenlander?</li>
+			<li>Do you have questions about living in Denmark?</li>
+			<li>Are there things you need help with in Denmark?</li>
+			<li>I see. What else?</li>
+			<li>I understand. Tell me more?</li>
+			<li>OK. I’m listening.</li>
+
+			<!-- <li>Ask me questions so that I can try to help.</li>
 			<li>I like to listen and try to help.</li>
 			<li>You can be direct with me.</li>
 			<li>I'm not a person like you, but I try!</li>
 			<li>I am trying.</li>
 			<li>What would you like to talk about?</li>
-			<li>What’s it like talking with me?</li>
-			<li>Would you like to talk about this topic with a person?</li>
-			<li>Would you like to talk about this topic with a Greenlander?</li>
-			<li>Do you have questions about living in Denmark?</li>
-			<li>Are there things you need help with in Denmark?</li>
+			<li>What’s it like talking with me?</li> -->
+
 		</random>
 	</template>
 </category>

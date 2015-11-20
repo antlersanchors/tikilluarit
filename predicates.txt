@@ -1,6 +1,7 @@
-said hello
 
 name_is_known = knows name
+
+delivered mission statement
 
 ---
 

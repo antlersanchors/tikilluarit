@@ -65,7 +65,7 @@
 </category>
 
 <category><pattern>DO YOU CARE ABOUT *</pattern>
-<template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
+<template>Of course I care about <set name="it">      <person/>     </set>.</template>
 </category>
 
 <category><pattern>DO YOU CARE *</pattern>

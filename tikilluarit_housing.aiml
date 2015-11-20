@@ -79,4 +79,11 @@
 	<template>How long have you been living in Denmark?</template>
 </category>
 
+<!-- Ideally something here to parse the response to how long have you been living in Denmark -->
+<category>
+	<pattern>*</pattern>
+	<that>HOW LONG HAVE YOU BEEN LIVING IN DENMARK</that>
+	<template>How does it feel?</template>
+</category>
+
 </aiml>

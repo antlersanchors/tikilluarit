@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 12/17/2011 -->
+<!-- -->
+
+<!-- Tikilluarit is a prototype of a chatbot to support Greenlanders moving to Denmark -->
+<!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
+
+<!-- SOCIAL ISOLATION -->
+<!-- Let’s just bang out some stuff for now to round things out in this area. It can be smarter, later -->
+
+<!-- EPIC CATCH-ALLS -->
+<category>
+	<pattern>_ GREENLAND *</pattern>
+	<template>
+		<random>
+			<li>Do you know many Greenlanders in Denmark?</li>
+			<li>Would you like to meet more Greenlanders?</li>
+			<li>Do you miss speaking Greenlandic?</li>
+			<li>Is it hard to make friends here?</li>
+			<li>Do you ever miss Greenland?</li>
+			<li>What do you miss most about Greenland?</li>
+			<li>Do you know where to meet other Greenlanders in Copenhagen?</li>
+			<li>Do you think you will go back to Greenland for a visit soon?</li>
+			<li>Do you live with any other Greenlanders?</li>
+			<li>Greenland sounds beautiful. I wish I could visit.</li>
+	</template>
+</category>
+
+<category>
+	<pattern>_ GREENLANDERS *</pattern>
+	<template><srai>_ GREENLAND *</srai></template>
+</category>
+
+<category>
+	<pattern>_ PEOPLE *</pattern>
+	<template><srai>_ GREENLAND *</srai></template>
+</category>
+
+<category>
+	<pattern>_ NEED *</pattern>
+	<template>
+		<random>
+			<li>Why is that important to you?</li>
+			<li>Do you know where to go to do that?</li>
+			<li>I don’t know the answer to that, but I can try and find out. If I find out an answer do you want me to let you know?</li>
+		</template>
+</category>
+
+<category>
+	<pattern>* FRIENDS _</pattern>
+	<template>Is it hard to make friends here?</template>
+</category>
+
+<category>
+	<pattern>_ HARD TO MAKE FRIENDS *</pattern>
+	<template>Why do you think that is?</template>
+</category>
+
+<category>
+	<pattern>_ SPEAK GREENLANDIC *</pattern>
+	<template>Do you miss speaking Greenlandic with more people?</template>
+</category>
+
+<category>
+	<pattern>_ FEEL *</pattern>
+	<template>
+		<random>
+			<li>When you feel that way, what do you do?</li>
+			<li>Would you tell me more about that?</li>
+			<li>Can you tell me more about how that feels?</li>
+		</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>How does that feel?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you like about living in Denmark?</template>
+</category>
+
+
+<category>
+	<pattern></pattern>
+	<template>How do you like living in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you live with other people?</template>
+</category>
+
+<category>
+	<pattern>_ TO DENMARK *</pattern>
+	<template>
+		<random>
+			<li>I think it must be very hard to leave your home. I’ve never had to do that!</li>
+			<li>I think it sounds very hard to leave your family and friends. I don’t have any, so I don’t have to worry about that.</li>
+			<li>Was it challenging to move to Denmark?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>I think it sounds very hard to leave your family and friends. I don’t have any, so I don’t have to worry about that.</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to talk more about this topic?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What would you like to talk about?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you have questions about living in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you wish was different about living in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>If you could change something about living in Copenhagen, what would it be?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you wish you knew about living in Denmark before you came here?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What has been the hardest thing about living in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What do you miss most about Greenland?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you think you will go back for a visit soon?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you talk to people in Greenland often?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you like talking to me?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What’s it like talking with me?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to talk about this topic with a person?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Would you like to talk about this topic with a Greenlander?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Why is it hard to do that?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What are things that you need help with?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>What are some things that you have questions about?</template>
+</category>
+
+<!-- MOOD -->
+<category>
+	<pattern>* LONELY</pattern>
+	<template>Are you lonely?</template>
+</category>
+
+<category>
+	<pattern>* SAD</pattern>
+	<template>Are you feeling sad?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>ARE YOU FEELING SAD</that>
+	<template>I’m sorry to hear that.</template>
+</category>
+
+<category>
+	<pattern>I FEEL *</pattern>
+	<template>Tell me about what it is like to feel <star/>?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Do you share these feelings with others?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>How does it make you feel to do that?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Where do you feel the strongest in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>When do you feel the strongest in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Is there someone whose help you’ve really appreciated in Copenhagen?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Have you felt welcome in Denmark?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>Why?</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template>I see. Would you like to tell me more about how that feels?</template>
+</category>
+
+</aiml>

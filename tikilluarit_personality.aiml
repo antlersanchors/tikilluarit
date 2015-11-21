@@ -76,6 +76,7 @@
 		<condition name="mission_statement">
 			<li value="yes">
 				Nice to meet you, <star/>!<br/>
+				Do you have questions about finding somewhere to live, or finding Greenlandic culture in Denmark?
 				<think>
 					<set name="name_is_known">yes</set>
 					<set name="client_name"><star/></set>
@@ -91,6 +92,32 @@
 					<set name="client_name"><star/></set>
 					<set name="mission_statement">yes</set>
 				</think>
+			</li>
+		</condition>
+	</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>OR FINDING GREENLANDIC CULTURE IN DENMARK</that>
+	<template><srai>GENERALQUERY</srai></template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>AND I WILL TRY TO ANSWER</that>
+	<template><srai>GENERALQUERY</srai></template>
+</category>
+
+<category>
+	<pattern>GENERALQUERY</pattern>
+	<template>
+		<condition name="has_housing">
+			<li value="yes">
+				<srai>LIFEQUERY</srai>
+			</li>
+			<li>
+				<srai>HOUSINGQUERY</srai>
 			</li>
 		</condition>
 	</template>

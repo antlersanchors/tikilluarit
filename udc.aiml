@@ -14,7 +14,7 @@
 <!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
 
 <category>
-	<pattern></pattern>
+	<pattern>*</pattern>
 	<template><srai>UDC</srai></template>
 </category>
 

@@ -28,7 +28,7 @@
 	<pattern>ZRESET</pattern>
 	<template>
 		<set name="name_is_known"></set>
-		<set name="salutation"></set>
+		<set name="mission_statement"></set>
 		<set name="client_name"></set>
 	</template>
 </category>

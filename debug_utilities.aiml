@@ -17,12 +17,17 @@
 
 <category>
 	<pattern>ZDEBUG</pattern>
-	<template>Value of name_is_known is <get name="name_is_known"/></template>
+	<template>
+		Value of name_is_known is <get name="name_is_known"/><br/>
+		Value of salutation is <get name="salutation"/><br/>
+	</template>
 </category>
 
 <category>
 	<pattern>ZRESET</pattern>
-	<template><set name="name_is_known"></set>
+	<template>
+		<set name="name_is_known"></set>
+		<set name="salutation"></set>
 	</template>
 </category>
 

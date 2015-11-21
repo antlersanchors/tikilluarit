@@ -50,8 +50,8 @@
 	<pattern>HI</pattern>
 	<template>
 			<condition name="name_is_known">
-			<li value="yes"><srai>HINAMEKNOWN</srai></li>	
-			<li>What is your name?</li>
+			<li value="yes"><srai>HINAMEKNOWN</srai></li>
+			<li>Hello!<br/>What is your name?</li>
 			</condition>
 	</template>
 </category>
@@ -66,6 +66,7 @@
 			<li>Good day!</li>
 			<li>Greetings!</li>
 		</random>
+		<set name="salutation"/>yes
 	</template>
 </category>
 

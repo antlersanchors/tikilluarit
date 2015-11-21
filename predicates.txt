@@ -13,6 +13,9 @@ mission_statement = delivered mission statement
 
 has_housing = has housing
 looking_for_housing = looking for housing
+want_help_housing = help with housing
+talk_person_housing = would like to speak to a real person
+knows_homeless_resource = resources for the homeless
 
 neighbourhood = neighbourhood
 
@@ -23,10 +26,6 @@ speaks_english = speaks english
 
 knows_where_greenlanders = knows where to find greenlanders
 looking_for_greenlanders = looking for greenlanders
-
-want_help_housing = help with housing
-talk_person_housing = would like to speak to a real person
-knows_homeless_resource = resources for the homeless
 
 knows about…
 knows_greenlandic_house = greenlandic house

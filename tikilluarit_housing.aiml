@@ -52,40 +52,9 @@
 </category>
 
 <category>
-	<pattern>YES</pattern>
-	<that>DO YOU KNOW WHAT THAT IS</that>
-	<template>
-		Great! Would you like to talk to someone there?
-		<think>
-			<set name="knows_greenlandic_house"><value>yes</value></set>
-		</think>
-	</template>
-</category>
-
-<!-- This could be much smarter -->
-<category>
-	<pattern>NO</pattern>
-	<that>DO YOU KNOW WHAT THAT IS</that>
-	<template>
-		The Greenlandic House has a lot of resources for Greenlandic people. They have community lunches on Tuesday and there’s a drop-in called Qiperoq that’s open on weekdays. The address is Løvstræde 6. You can call them at +45 33 91 12 12 or email them at illu@sumut.dk.
-		<think>
-			<set name="knows_greenlandic_house"><value>no</value></set>
-		</think>
-	</template>
-</category>
-
-<category>
-	<pattern>YES</pattern>
-	<that>WOULD YOU LIKE TO TALK TO SOMEONE THERE</that>
-	<template>
-		You can talk to Søren or Karola who work in the reception, and they will help you find someone!
-	</template>
-</category>
-
-<category>
 	<pattern>NO</pattern>
 	<that>DO YOU NEED HELP FINDING HOUSING</that>
-	<template>I heard you say no.</template>
+	<template>That’s good you feel like you are doing well, <get name="client_name"/>. Have you heard of the Greenlandic House? They have a </template>
 </category>
 
 <category>
@@ -126,20 +95,16 @@
 
 <category>
 	<pattern>* LIVING IN DENMARK</pattern>
-	<template>How long have you been living in Denmark?</template>
-</category>
-
-<!-- Ideally something here to parse the response to how long have you been living in Denmark -->
-<category>
-	<pattern>*</pattern>
-	<that>HOW LONG HAVE YOU BEEN LIVING IN DENMARK</that>
-	<template>How does it feel?</template>
+	<template>How long have you been living in Denmark, <get name="client_name"/>?</template>
 </category>
 
 <category>
 	<pattern>*</pattern>
 	<that>HOW LONG HAVE YOU BEEN LIVING IN DENMARK</that>
-	<template>You’ve been here <person/>.</template>
+	<template>
+		<think><set name="time_in_denmark"><star/></set></think>
+		How does it feel?
+	</template>
 </category>
 
 </aiml>

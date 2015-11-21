@@ -1,37 +1,37 @@
-
-name_is_known = knows name
-
-delivered mission statement
-
 ---
 two broad categories: things I should only ask once, things I can ask multiple times
+
+think these all fit the former
 ---
 
-has housing
-looking for housing
+name_is_known = knows name
+client_name = name of client
 
-neighbourhood
+mission_statement = delivered mission statement
 
-time in denmark
+---
 
-speaks danish
+has_housing = has housing
+looking_for_housing = looking for housing
 
-speaks english
+neighbourhood = neighbourhood
 
-looking for greenlanders
+time_in_denmark = time in denmark
 
-knows where to find greenlanders
+speaks_danish = speaks danish
+speaks_english = speaks english
 
-would like to speak to a real person about help with housing
+knows_where_greenlanders = knows where to find greenlanders
+looking_for_greenlanders = looking for greenlanders
+
+want_help_housing = help with housing
+talk_person_housing = would like to speak to a real person
+knows_homeless_resource = resources for the homeless
 
 knows about…
-greenlandic house
-qiperoq
-starship
-Naapiffiq
-Ilik
-
-lawyer at greenlandic house
-
-resources for the homeless
-
+knows_greenlandic_house = greenlandic house
+knows_qiperoq = qiperoq
+knows_starship = starship
+knows_naapiffiq = Naapiffiq
+knows_ilik = Ilik
+knows_lawyer = lawyer at greenlandic house

@@ -56,6 +56,29 @@
 	<that>DO YOU KNOW WHAT THAT IS</that>
 	<template>
 		Great! Would you like to talk to someone there?
+		<think>
+			<set name="knows_greenlandic_house"><value>yes</value></set>
+		</think>
+	</template>
+</category>
+
+<!-- This could be much smarter -->
+<category>
+	<pattern>NO</pattern>
+	<that>DO YOU KNOW WHAT THAT IS</that>
+	<template>
+		The Greenlandic House has a lot of resources for Greenlandic people. They have community lunches on Tuesday and there’s a drop-in called Qiperoq that’s open on weekdays. The address is Løvstræde 6. You can call them at +45 33 91 12 12 or email them at illu@sumut.dk.
+		<think>
+			<set name="knows_greenlandic_house"><value>no</value></set>
+		</think>
+	</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>WOULD YOU LIKE TO TALK TO SOMEONE THERE</that>
+	<template>
+		You can talk to Søren or Karola who work in the reception, and they will help you find someone!
 	</template>
 </category>
 

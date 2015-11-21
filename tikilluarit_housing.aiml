@@ -22,7 +22,7 @@
 <category>
 	<pattern>YES</pattern>
 	<that>DO YOU HAVE SOMEWHERE TO LIVE</that>
-	<template>That’s good. Do you like where you live?
+	<template>That’s good, <get name="client_name"/>. Do you like where you live?
 		<think><set name="has_housing">yes</set></think></template>
 </category>
 
@@ -41,14 +41,14 @@
 <category>
 	<pattern>YES</pattern>
 	<that>ARE YOU HOMELESS</that>
-	<template>I’m sorry, that must be very stressful. 
+	<template>I’m sorry, <get name="client_name"/>, that must be very stressful. 
 		<think><set name="has_housing">no</set></think> Do you need help finding housing?</template>
 </category>
 
 <category>
 	<pattern>YES</pattern>
 	<that>DO YOU NEED HELP FINDING HOUSING</that>
-	<template>There are people who can help you at the Greenlandic House. Do you know what that is?</template>
+	<template>There are people who can help you at the Greenlandic House, <get name="client_name"/>. Do you know what that is?</template>
 </category>
 
 <category>

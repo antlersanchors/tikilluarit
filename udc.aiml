@@ -21,13 +21,22 @@
 <category>
 	<pattern>UDC</pattern>
 	<template>
-		<random>
-			<li><srai>RANDOM LINES</srai></li>
+		<condition name="name_is_known">
+			<li value="yes"><srai>RANDOM LINES</srai></li>
+			<li>Hello!<br/>
+			My name is Tikilluarit, and I’m a robot.<br/>
+			I know a bit about finding somewhere to live and life in Denmark, and I try to share that with Greenlanders.<br/>
+			You can ask me anything, and I’ll try to answer!<br/>
+			What is your name?
+			<think>
+				<set name="mission_statement">yes</set>
+			</think>
+			</li>
+		</condition>
 		<!-- 	<li><srai>INQUIRY NAME</srai></li>
 			<li><srai>INQUIRY LOCATION</srai></li> -->
 			<!-- Taking out inquiry about gender because it felt weird to me last night -->
 			<!-- <li><srai>INQUIRY GENDER</srai></li> -->
-		</random>
 	</template>
 </category>
 

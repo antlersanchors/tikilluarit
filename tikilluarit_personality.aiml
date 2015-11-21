@@ -73,15 +73,26 @@
 	<pattern>*</pattern>
 	<that>WHAT IS YOUR NAME</that>
 	<template>
-		Nice to meet you, <star/>!<br/>
-		My name is Tikilluarit, and I’m a robot.<br/>
-		I know a bit about finding housing and living in Denmark, and I try to share that with Greenlanders.<br/>
-		You can ask me anything, and I’ll try to answer!<br/>
-		<think>
-			<set name="name_is_known">yes</set>
-			<set name="client_name"><star/></set>
-			<set name="mission_statement">yes</set>
-		</think>
+		<condition name="mission_statement">
+			<li value="yes">
+				Nice to meet you, <star/>!<br/>
+				<think>
+					<set name="name_is_known">yes</set>
+					<set name="client_name"><star/></set>
+				</think>
+			</li>
+			<li>
+				Nice to meet you, <star/>!<br/>
+				My name is Tikilluarit, and I’m a robot.<br/>
+				I know a bit about finding housing and living in Denmark, and I try to share that with Greenlanders.<br/>
+				You can ask me anything, and I’ll try to answer!<br/>
+				<think>
+					<set name="name_is_known">yes</set>
+					<set name="client_name"><star/></set>
+					<set name="mission_statement">yes</set>
+				</think>
+			</li>
+		</condition>
 	</template>
 </category>
 

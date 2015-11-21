@@ -20,6 +20,7 @@
 	<template>
 		Value of name_is_known is <get name="name_is_known"/><br/>
 		Value of salutation is <get name="salutation"/><br/>
+		Value of client_name is <get name="client_name"/><br/>
 	</template>
 </category>
 
@@ -28,6 +29,7 @@
 	<template>
 		<set name="name_is_known"></set>
 		<set name="salutation"></set>
+		<set name="client_name"></set>
 	</template>
 </category>
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 12/17/2011 -->
+<!-- -->
+
+<!-- Tikilluarit is a prototype of a chatbot to support Greenlanders moving to Denmark -->
+<!-- It is the CIID IDP 2015 final project of Michael-Owen Liston (@antlersanchors)  -->
+
+<!-- Conversational topics around food and how it relates to -->
+<!-- inclusiveness in culture. -->
+
+<category>
+	<pattern>* FOOD</pattern>
+	<template>
+		<random>
+			<li>Do you miss Greenlandic food?</li>
+			<li>What kind of food do you like?</li>
+			<li>Is there a kind of food you miss?</li>
+			<li>Is there any way to get Greenlandic food in Denmark?</li>
+
+		</random>
+	</template>
+</category>
+
+</aiml>

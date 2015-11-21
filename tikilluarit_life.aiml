@@ -67,6 +67,12 @@
 </category>
 
 <category>
+	<pattern>YES</pattern>
+	<that>IS IT HARD TO MAKE FRIENDS HERE</that>
+	<template>I hear that from Greenlanders a lot.</template>
+</category>
+
+<category>
 	<pattern>^ HARD TO MAKE FRIENDS ^</pattern>
 	<template>Why do you think that is?</template>
 </category>

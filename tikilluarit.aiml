@@ -211,33 +211,55 @@
 	<template><srai>* ARE YOU</srai></template>
 </category>
 
-<!-- ABOUT YOU -->
+<!-- YES NO ETC. -->
 <category>
-	<pattern></pattern>
-	<template></template>
+	<pattern>YEAH</pattern>
+	<template><srai>YES</srai></template>
 </category>
 
-<!-- SMALL TALK -->
-
-
-<!-- FOOD -->
 <category>
-	<pattern>* FOOD</pattern>
-	<template>
-		<random>
-			<li>Do you miss Greenlandic food?</li>
-			<li>What kind of food do you like?</li>
-			<li>Is there a kind of food you miss?</li>
-			<li>Is there any way to get Greenlandic food in Denmark?</li>
-
-		</random>
-	</template>
+	<pattern>OK</pattern>
+	<template><srai>YES</srai></template>
 </category>
 
-<!-- MUSIC -->
 <category>
-	<pattern>* MUSIC</pattern>
-	<template>Do you miss Greenlandic music?</template>
+	<pattern>SURE</pattern>
+	<template><srai>YES</srai></template>
+</category>
+
+<category>
+	<pattern>YEA</pattern>
+	<template><srai>YES</srai></template>
+</category>
+
+<category>
+	<pattern>YEP</pattern>
+	<template><srai>YES</srai></template>
+</category>
+
+<category>
+	<pattern>JEP</pattern>
+	<template><srai>YES</srai></template>
+</category>
+
+<category>
+	<pattern>ALRIGHT</pattern>
+	<template><srai>YES</srai></template>
+</category>
+
+<category>
+	<pattern>NOPE</pattern>
+	<template><srai>NO</srai></template>
+</category>
+
+<category>
+	<pattern>NEJ</pattern>
+	<template><srai>NO</srai></template>
+</category>
+
+<category>
+	<pattern>NOOO</pattern>
+	<template><srai>NO</srai></template>
 </category>
 
 </aiml>

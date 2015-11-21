@@ -19,8 +19,20 @@
 	<pattern>ZDEBUG</pattern>
 	<template>
 		Value of name_is_known is <get name="name_is_known"/><br/>
-		Value of salutation is <get name="salutation"/><br/>
+		Value of mission_statement is <get name="mission_statement"/><br/>
 		Value of client_name is <get name="client_name"/><br/>
+		
+		Value of has_housing is <get name="has_housing"/><br/>
+		Value of want_help_housing is <get name="want_help_housing"/><br/>
+		Value of talk_person_housing is <get name="talk_person_housing"/><br/>
+		Value of knows_homeless_resource is <get name="knows_homeless_resource"/><br/>
+		
+		Value of knows_where_greenlanders is <get name="knows_where_greenlanders"/><br/>
+		Value of looking_for_greenlanders is <get name="looking_for_greenlanders"/><br/>
+
+		Value of knows_greenlandic_house is <get name="knows_greenlandic_house"/><br/>
+
+
 	</template>
 </category>
 
@@ -30,6 +42,16 @@
 		<set name="name_is_known"></set>
 		<set name="mission_statement"></set>
 		<set name="client_name"></set>
+
+		<set name="has_housing"></set>
+		<set name="want_help_housing"></set>
+		<set name="talk_person_housing"></set>
+		<set name="knows_homeless_resource"></set>
+
+		<set name="knows_where_greenlanders"></set>
+		<set name="looking_for_greenlanders"></set>
+	
+		<set name="knows_greenlandic_house"></set>
 	</template>
 </category>
 

@@ -23,8 +23,8 @@
 	<template>
 		<random>
 			<li><srai>RANDOM LINES</srai></li>
-			<li><srai>INQUIRY NAME</srai></li>
-			<li><srai>INQUIRY LOCATION</srai></li>
+		<!-- 	<li><srai>INQUIRY NAME</srai></li>
+			<li><srai>INQUIRY LOCATION</srai></li> -->
 			<!-- Taking out inquiry about gender because it felt weird to me last night -->
 			<!-- <li><srai>INQUIRY GENDER</srai></li> -->
 		</random>
@@ -41,9 +41,8 @@
 			<li>Do you have questions about living in Denmark?</li>
 			<li>Are there things you need help with in Denmark?</li>
 			<li>Do you have questions about finding somewhere to live, or finding Greenlandic culture in Denmark?</li>
-			<li>I see. What else?</li>
-			<li>I understand. Tell me more?</li>
-			<li>OK. I’m listening.</li>
+			<li>I see. What else would you like to know?</li>
+			<li>OK. I’m listening. What kinds of questions do you have?</li>
 
 			<!-- <li>Ask me questions so that I can try to help.</li>
 			<li>I like to listen and try to help.</li>
@@ -52,7 +51,6 @@
 			<li>I am trying.</li>
 			<li>What would you like to talk about?</li>
 			<li>What’s it like talking with me?</li> -->
-
 		</random>
 	</template>
 </category>

@@ -48,7 +48,15 @@
 <category>
 	<pattern>YES</pattern>
 	<that>DO YOU NEED HELP FINDING HOUSING</that>
-	<template>I heard you say yes.</template>
+	<template>There are people who can help you at the Greenlandic House. Do you know what that is?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>DO YOU KNOW WHAT THAT IS</that>
+	<template>
+		Great! Would you like to talk to someone there?
+	</template>
 </category>
 
 <category>

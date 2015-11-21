@@ -4,6 +4,8 @@ name_is_known = knows name
 delivered mission statement
 
 ---
+two broad categories: things I should only ask once, things I can ask multiple times
+---
 
 has housing
 looking for housing
